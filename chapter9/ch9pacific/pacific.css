@@ -245,6 +245,11 @@ tr:nth-of-type(odd) {
     white-space: nowrap;
   }
 }
+tr:hover {
+  background-color: #88c2a3;
+  transition: background-color 0.3s ease;
+}
+
 
 @media (min-width: 37.5rem) {
   nav ul {
